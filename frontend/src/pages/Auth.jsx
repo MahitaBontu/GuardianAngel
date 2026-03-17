@@ -14,7 +14,11 @@ export default function Auth() {
     setError('')
     setMessage('')
 
- 
+    //if (!email.endsWith('.edu')) {
+    //  setError('You must use a .edu email address to register.')
+    //  return
+    //}
+
     setLoading(true)
 
     if (isLogin) {
