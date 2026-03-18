@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import Submit from './pages/Submit'
 import Feed from './pages/Feed'
 import Auth from './pages/Auth'
+import Assistant from './pages/Assistant'
+import Analytics from './pages/Analytics'
 import Navbar from './components/Navbar'
 
 function App() {
@@ -38,6 +40,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/submit" element={<Submit />} />
           <Route path="/feed" element={<Feed />} />
+          <Route path="/assistant" element={<Assistant />} />
+          <Route path="/analytics" element={<Analytics />} />
         </Routes>
       </div>
     </BrowserRouter>
